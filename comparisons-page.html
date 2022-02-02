@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#d4d4d4;">
+  <!--Navigation menu-->
+  <h1 class="heading"><a href="landing-page.html">Latitude Analysis Dashboard</a></h1>
+  <div class="navbar-css">
+    <div class="dropdown-css">
+      <button class="dropbtn">Plots 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content-css">
+        <a href="visualization-page-1.html">Tempurature vs. Latitude</a>
+        <a href="visualization-page-2.html">Humidity vs. Latitude</a>
+        <a href="visualization-page-3.html">Cloudiness vs. Latitude</a>
+        <a href="visualization-page-4.html">Wind Speed vs. Latitude</a>
+      </div>
+    </div> 
+    <div class="topnav-right">
+      <a href="comparisons-page.html">Comparisons</a>
+      <a href="data-page.html">Data</a>
+    </div>
+  </div>
+
+  <!--Comparisons page-->
+  <div class="page" id="comparisons-page">
+    <br>
+    <h2 class="heading">Comparisons</h2>
+    <p class="body-text">Click on any visualisation to get an in-depth analysis.</p>
+    <div class="container">
+      <div class="row"> 
+        <div class="column">
+          <center><p style="font-family: Arial; color:#04a96d; font-size: 16pt">Tempurature (F) vs. Latitude</p></center>
+          <a href="visualization-page-1.html"><img target="_blank" src="resources/assets/visualizations/Fig1.png" alt="Tempurature vs. Latitude"></a>
+        </div>
+        <div class="column">
+          <center><p style="font-family: Arial; color:#04a96d; font-size: 16pt">Humidity (%) vs. Latitude</p></center>
+          <a href="visualization-page-2.html"><img target="_blank" src="resources/assets/visualizations/Fig2.png" alt="Humidity vs. Latitude"></a>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column">
+          <center><p style="font-family: Arial; color:#04a96d; font-size: 16pt">Cloudiness (%) vs. Latitude</p></center>
+          <a href="visualization-page-3.html"><img target="_blank" src="resources/assets/visualizations/Fig3.png" alt="Cloudiness vs. Latitude"></a>
+        </div>
+        <div class="column">
+          <center><p style="font-family: Arial; color:#04a96d; font-size: 14pt">Wind Speed (mph) vs. Latitude</p></center>
+          <a href="visualization-page-4.html"><img target="_blank" src="resources/assets/visualizations/Fig4.png" alt="Wind Speed vs. Latitude"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

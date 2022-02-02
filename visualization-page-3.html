@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color:#d4d4d4;">
+  <!--Navigation menu-->
+  <h1 class="heading"><a href="landing-page.html">Latitude Analysis Dashboard</a></h1>
+  <div class="navbar-css">
+    <div class="dropdown-css">
+      <button class="dropbtn">Plots 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content-css">
+        <a href="visualization-page-1.html">Tempurature vs. Latitude</a>
+        <a href="visualization-page-2.html">Humidity vs. Latitude</a>
+        <a href="visualization-page-3.html">Cloudiness vs. Latitude</a>
+        <a href="visualization-page-4.html">Wind Speed vs. Latitude</a>
+      </div>
+    </div> 
+    <div class="topnav-right">
+      <a href="comparisons-page.html">Comparisons</a>
+      <a href="data-page.html">Data</a>
+    </div>
+  </div>
+
+  <!--Visualisation pages 3-->
+    <div class="page" id="visualization-page-3">
+      <title>Cloudiness (%) vs. Latitude</title>
+      <h2 class="heading">Cloudiness (%) vs. Latitude</h2>
+      <div class="sidebar">
+        <div><a href="visualization-page-1.html"><img target="_blank" src="resources/assets/visualizations/Fig1.png" alt="Tempurature vs. Latitude" width="120" height="80"></a></div>
+        <div><a href="visualization-page-2.html"><img target="_blank" src="resources/assets/visualizations/Fig2.png" alt="Humidity vs. Latitude" width="120" height="80"></a></div>
+        <div><a href="visualization-page-3.html"><img target="_blank" src="resources/assets/visualizations/Fig3.png" alt="Cloudiness vs. Latitude" width="112" height="72" style='border:4px solid rgb(255, 136, 0)'></a></div>
+        <div><a href="visualization-page-4.html"><img target="_blank" src="resources/assets/visualizations/Fig4.png" alt="Wind Speed vs. Latitude" width="120" height="80"></a></div>
+      </div>
+      <img src="resources/assets/visualizations/Fig3.png">
+      <p class="body-text">This scatter plot also does not show a strong correlation, however we can interpret that more cities closer to the equator have higher levels of cloudiness than those further away from the equator, which have low or no cloudiness.</p>
+    </div>
+</body>
+
+</html>
